@@ -1,0 +1,705 @@
+    1  history -w
+    2  history -w
+    3  cat .bash_history
+    4  cat .bash_logout 
+    5  cat .bashrc
+    6  dir
+    7  dir --color=auto
+    8  vdir --color=auto
+    9  dir
+   10  vdir
+   11  ll
+   12  fffdf
+   13  cat /usr/share/doc/bash/
+   14  sudo apt install bash-doc
+   15  ll /usr/share/doc/bash-doc/examples
+   16  cat /usr/share/doc/bash-doc/examples/scripts/shprompt 
+   17  exec bash
+   18  ruby
+   19  whereis gem
+   20  whereis bundle
+   21  gem
+   22  gem install bundler
+   23  sudo apt remove ruby-full ruby-dev
+   24  sudo gem
+   25  sudo bundle install
+   26  /usr/local/bin/bundle
+   27  rvm list
+   28  sudo gem uninstall bundler
+   29  gem uninstall bundler
+   30  sudo apt install ruby-full ruby-dev
+   31  sudo  apt-get update
+   32  sudo apt install ruby-full ruby-dev
+   33  gem
+   34  gem uninstall bundler
+   35  sudo gem uninstall bundler
+   36  gem list
+   37  gem list --local
+   38  gem help commands
+   39  gem uninstall -aIx
+   40  gem uninstall -i /usr/lib/ruby/gems/3.0.0 minitest
+   41  sudo gem uninstall -i /usr/lib/ruby/gems/3.0.0 minitest
+   42  gem uninstall -aIx
+   43  sudo gem uninstall -aIx
+   44  gem uninstall -i /usr/share/rubygems-integration/all net-telnet
+   45  sudo gem uninstall -i /usr/share/rubygems-integration/all net-telnet
+   46  gem uninstall -i /usr/share/rubygems-integration/all net-telnet
+   47  sudo gem uninstall -aIx
+   48  sudo gem uninstall -i /usr/lib/ruby/gems/3.0.0 power_assert
+   49  echo $GEM_HOME
+   50  sudo gem uninstall -aIx
+   51  sudo gem uninstall -i /usr/share/rubygems-integration/all rake
+   52  sudo gem uninstall -aIx
+   53  sudo gem uninstall -i /usr/lib/ruby/gems/3.0.0 rake
+   54  gem uninstall -i /usr/lib/ruby/gems/3.0.0 rake
+   55  sudo gem uninstall -i /usr/lib/ruby/gems/3.0.0 rake
+   56  gem list --local
+   57  sudo su
+   58  gem list --local
+   59  sudo gem uninstall -aIx
+   60  gem uninstall -aIx
+   61  for i in `gem list --no-versions`; do gem uninstall -aIx $i; done
+   62  history
+   63  sudo apt remove ruby-full ruby-dev
+   64  sudo apt autoremove
+   65  gem
+   66  exec bash
+   67  gem
+   68  conda
+   69  cd /home/avi/projects/test/venv
+   70  cookiecutter
+   71  python3 -m pip remove --user cookiecutter
+   72  python3 -m pip uninstall --user cookiecutter
+   73  sudo apt-get remove --auto-remove cookiecutter
+   74  sudo apt-get purge cookiecutter
+   75  python3 -m pip uninstall cookiecutter
+   76  autopep8
+   77  python3 -m pip uninstall autopep8 chardetect markdown-it normalizer
+   78  python3 -m pip uninstall autopep8 chardet markdown_it charset_normalizer
+   79  python3 -m pip uninstall markdown_it
+   80  python3 -m pip uninstall markdown-it-py
+   81  python3 -m pip uninstall pipenv
+   82  python3 -m pip uninstall slugify
+   83  python3 -m freeze
+   84  python3 -m pip freeze
+   85  python3 -m pip list
+   86  pip list --user
+   87  python3 -m site --user-base
+   88  pip freeze --user
+   89  python3 -m pip uninstall python-slugify
+   90  grep userpath olesolutions/**/requirement.txt
+   91  grep userpath olesolutions/**/**/requirement.txt
+   92  grep userpath olesolutions/*/requirement.txt
+   93  grep userpath ./olesolutions/*/requirement.txt
+   94  grep userpath ./olesolutions/*requirement.txt
+   95  grep -rn userpath ./olesolutions/**/requirement.txt
+   96  grep -rn userpath --include=requirement.txt ./olesolutions
+   97  grep -rn userpath --include="*/requirement.txt" ./olesolutions
+   98  grep -rni shopify --include="*/requirement.txt" ./olesolutions
+   99  grep -rn Flask --include="*/requirement.txt" ./olesolutions
+  100  grep -rn Flask --include="*/requirements.txt" ./olesolutions
+  101  grep -rn Flask --include="**/requirements.txt" ./olesolutions
+  102  grep -rn Flask --include="*requirements.txt" ./olesolutions
+  103  grep -rni userpath --include="*requirements.txt" ./olesolutions
+  104  grep -rn userpath --include="*requirements.txt" ./olesolutions
+  105  grep -rni flask --include="*requirements.txt" ./olesolutions
+  106  grep -rn flask --include="*requirements.txt" ./olesolutions
+  107  pip
+  108  pip freeze help
+  109  pip freeze --help
+  110  pip list --help
+  111  pip list --not-required
+  112  pip list
+  113  python3 -m pip uninstall Jinja2
+  114  diff <(pip list --not-required) <(pip list)
+  115  diff
+  116  diff --help
+  117  diff -y <(pip list --not-required) <(pip list)
+  118  grep -rn blinker --include="*requirements.txt" ./olesolutions
+  119  cat olesolutions/dd/erp/requirements.txt
+  120  python3 -m pip uninstall requests PyYAML blinker
+  121  python3 -m pip uninstall requests PyYAML
+  122  python3 -m pip uninstall  PyYAML blinker
+  123  python3 -m pip uninstall pyyaml blinker
+  124  python3 -m pip uninstall pyyaml
+  125  python3 -m pip uninstall arrow binaryornot blinker command-not-found cryptography dbus-python distro distro-info importlib-metadata jeepney Jinja2 launchpadlib mdurl more-itertools netifaces oauthlib pip pipx pycodestyle PyGObject PyJWT python-apt PyYAML requests rich SecretStorage setuptools systemd-python text-unidecode ubuntu-pro-client ufw unattended-upgrades virtualenv wadllib wheel zipp
+  126  sudo apt update
+  127  sudo apt install pipx
+  128  pipx ensurepath
+  129  poetry
+  130  pipx
+  131  code --list-extensions
+  132  du -shc .vscode-server/
+  133  rm -rf .vscode-server/extensions/*
+  134  code .
+  135  rm -rf .vscode-server
+  136  code .
+  137  cat /etc/wsl.conf
+  138  sudo vi /etc/wsl.conf
+  139  logout
+  140  exit
+  141  code .
+  142  sudo code .
+  143  sudo vi /etc/wsl.conf
+  144  exit
+  145  code .
+  146  docker
+  147  du -sch ./*
+  148  sudo du -sch /*
+  149  sudo du -sch --help
+  150  sudo du -sch --exclude="/mnt*" /*
+  151  sudo du -sch --exclude="/mnt*" /var/*
+  152  sudo du -sch --exclude="/mnt*" /var/log/*
+  153  sudo du -sch --exclude="/mnt*" /var/log/journal/*
+  154  tail  /var/log/journal/54a2020b3908423dad0a831119536a11/system@00060a6dd4eb00a9-ff4c12998948aa6f.journal~ 
+  155  sudo journalctl --vacuum-size=100M
+  156  sudo du -sch --exclude="/mnt*" /var/*
+  157  sudo du -sch --exclude="/mnt*" /var/log/journal/*
+  158  sudo du -sch --exclude="/mnt*" /var/*
+  159  sudo du -sch --exclude="/mnt*" /var/lib/*
+  160  sudo du -sch --exclude="/mnt*" /var/lib/mysql/*
+  161  sudo du -sch --exclude="/mnt*" /var/lib/mysql
+  162  sudo du -sch --exclude="/mnt*" /var/lib/mysql/
+  163  sudo du -sch --exclude="/mnt*" /var/lib/mysql/*
+  164  du -sch --exclude="/mnt*" /var/lib/mysql/*
+  165  ll /var/lib/mysql
+  166  sudo ll /var/lib/mysql
+  167  sudo ls -l /var/lib/mysql
+  168  vi /etc/mysql/mysql.conf.d/mysqld.cnf
+  169  sudo vi /etc/mysql/mysql.conf.d/mysqld.cnf
+  170  sudo service mysql start
+  171  du -sch --exclude="/mnt*" /var/lib/mysql
+  172  du -sch --exclude="/mnt*" /var/lib/mysql/
+  173  sudo du -sch --exclude="/mnt*" /var/lib/mysql/
+  174  sudo mysql
+  175  sudo ls -l /var/lib/mysql/
+  176  sudo service mysql restart
+  177  du -sch --exclude="/mnt*" /var/lib/mysql/
+  178  sudo du -sch --exclude="/mnt*" /var/lib/mysql/
+  179  sudo service mysql stop
+  180  sudo du -sch --exclude="/mnt*" --exclude="/tmp*" /var/lib/mysql/
+  181  sudo du -sch --exclude="/mnt*" --exclude="/tmp*" /
+  182  sudo du -sch --exclude="/mnt*" --exclude="/tmp*" --exclude="/proc*" /*
+  183  sudo du -sch --exclude="/mnt*" --exclude="/tmp*" --exclude="/proc*" /usr/*
+  184  sudo du -sch --exclude="/mnt*" --exclude="/tmp*" --exclude="/proc*" /usr/lib/*
+  185  sudo du -sch --exclude="/mnt*" --exclude="/tmp*" --exclude="/proc*" /usr/lib/wsl/*
+  186  sudo du -sch --exclude="/mnt*" --exclude="/tmp*" --exclude="/proc*" /usr/lib/wsl/drivers/*
+  187  exit
+  188  search
+  189  ll notes/
+  190  dh -f 
+  191  df -h
+  192  find
+  193  find --help
+  194  find / -type f -name "*.vhdx"
+  195  sudo find / -type f -name "*.vhdx"
+  196  sudo find / -readable -type f -name "*.vhdx"
+  197  sudo find / -type f -name "*.vhdx" -readable
+  198  find --help
+  199  sudo find / -type f -name "*.vhdx" -readable -ignore_readdir_race
+  200  sudo find / -ignore_readdir_race -type f -name "*.vhdx" -readable
+  201  sudo find / -type f -name "*.vhdx"
+  202  sudo find / -type f -name "*.vhdx" | grep -v "Permission denied"
+  203  sudo find / -type f -name "*.vhdx" 2>&1 | grep -v "Permission denied"
+  204  sudo find / -type f -name "*.vhdx"
+  205  sudo find / -type f -name "*.vhdx" > notes/virtualdisks.txt
+  206  sudo find / -type f -name "*.vhdx" -print | tee notes/virtualdisks.txt
+  207  sudo find / -type f -name "*.vhdx" -print | tee notes/virtualdisks.log
+  208  tee
+  209  tee --help
+  210  cd notes/
+  211  sudo find / -type f -name "*.vhdx" -print | tee virtualdisks.log
+  212  sudo find / -type f -name *.vhdx' -print | tee virtualdisks.log
+  213  sudo find / -type f -name '*.vhdx' -print | tee virtualdisks.log
+  214  sudo find / -type f -name '*.vhdx' -print > virtualdisks.log
+  215  sudo find / -type f -name '*.vhdx' -exec echo {} \\; > virtualdisks.log
+  216  sudo find / -type f -name '*.vhdx' -exec echo {} \; > virtualdisks.log
+  217  code .
+  218  df -h
+  219  poetry install --no-root
+  220  exec bash
+  221  poetry install --no-root
+  222  python tests/gpu_status.py 
+  223  python /home/avi/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/python_files/printEnvVariablesToFile.py /home/avi/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/python_files/deactivate/bash/envVars.txt
+  224  cd olesolutions/webstudio/
+  225  git clone git@github.com:Web-Studio-App/selenium_ole.git
+  226  code selenium
+  227  code selenium_ole/
+  228  sudo apt install python3.12
+  229  /usr/bin/python3 /home/avi/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/python_files/printEnvVariablesToFile.py /home/avi/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/python_files/deactivate/bash/envVars.txt
+  230  poetry install --no-root
+  231  pytest
+  232  git pull
+  233  pytest --log-cli-level
+  234  pytest --log-cli-level info
+  235  pytest
+  236  /bin/python3 /home/avi/.vscode-server/extensions/ms-python.python-2024.20.0-linux-x64/python_files/printEnvVariablesToFile.py /home/avi/.vscode-server/extensions/ms-python.python-2024.20.0-linux-x64/python_files/deactivate/bash/envVars.txt
+  237  ll
+  238  cd olesolutions/webstudio/
+  239  ll
+  240  code selenium_ole/
+  241  cd ..
+  242  cd von/django-erp/
+  243  code .
+  244  code olesolutions/von/django-erp/
+  245  git pull
+  246  . /home/avi/olesolutions/von/dfeed/.venv/bin/activate
+  247  ll
+  248  python manage.py initialize_db
+  249  exit
+  250  python
+  251  python3 initialize.py 
+  252  . /home/avi/olesolutions/von/dfeed/.venv/bin/activate
+  253  python3 initialize.py 
+  254  poetry config virtualenvs.create false --local
+  255  poetry config list --local
+  256  poetry config
+  257  poetry config list
+  258  poetry config --list
+  259  python -c "import sys; print('\n'.join(sys.path))"
+  260  poetry shell
+  261  . /home/avi/olesolutions/von/dfeed/.venv/bin/activate
+  262  python manage.py import
+  263  rm -rf .venv workdir
+  264  /bin/python3 /home/avi/.vscode-server/extensions/ms-python.python-2024.20.0-linux-x64/python_files/printEnvVariablesToFile.py /home/avi/.vscode-server/extensions/ms-python.python-2024.20.0-linux-x64/python_files/deactivate/bash/envVars.txt
+  265  cd olesolutions/von/
+  266  mv /mnt/c/Users/Avi/Downloads/dfeed.zip .
+  267  ll
+  268  unzip dfeed.zip .
+  269  unzip dfeed.zip
+  270  ll
+  271  ll dfeed
+  272  ll
+  273  code dfeed
+  274  ll
+  275  zip 
+  276  zip -b dfeed dfeed2.zip
+  277  ll
+  278  zip dfeed2.zip dfeed
+  279  ll
+  280  explorer.exe
+  281  explorer.exe .
+  282  zip -r dfeed2.zip dfeed
+  283  cd Downloads/
+  284  lsb_release -a
+  285  cd
+  286  ll
+  287  clear
+  288  ll
+  289  cd projects/
+  290  ll
+  291  mkdir ml
+  292  cd ml/
+  293  code .
+  294  python --version
+  295  python3 --version
+  296  sudo apt update
+  297  sudo apt upgrade
+  298  sudo apt remove python3.12-minimal
+  299  sudo apt remove python3.12
+  300  sudo apt remove python3.12-minimal
+  301  sudo apt remove python3.12
+  302  to
+  303  sudo apt install htop
+  304  sudo apt autoremove 
+  305  sudo apt install python3.12
+  306  sudo apt update
+  307  sudo do-release-upgrade
+  308  lsb_release -a
+  309  reboot
+  310  sudo reboot
+  311  wsl
+  312  exit
+  313  wsl
+  314  ll
+  315  exit
+  316  code projects/ml/
+  317  python3
+  318  ll /mnt/
+  319  clear
+  320  exit
+  321  poetry init
+  322  cd
+  323  conda
+  324  wsl cat /proc/version
+  325  python3.10 --version
+  326  sudo apt installpython3.10
+  327  sudo apt install python3.10
+  328  sudo apt update
+  329  sudo apt upgrade
+  330  sudo apt install python3.10
+  331  poetry
+  332  pipx
+  333  sudo apt install build-essential
+  334  sudo apt install libssl-dev libffi-dev python3-dev
+  335  sudo apt install python3.12
+  336  sudo add-apt-repository ppa: dead snakes/PPA
+  337  sudo add-apt-repository ppa:deadsnakes/ppa
+  338  sudo apt update
+  339  sudo apt upgrade
+  340  sudo apt install python3
+  341  sudo apt install python3.10
+  342  python3 --version
+  343  python3.10 --version
+  344  sudo update-alternatives --config python3
+  345  python3 -m pip install --upgrade pip
+  346  python3.10 -m pip install --upgrade pip
+  347  sudo apt update
+  348  sudo apt install pipx
+  349  pipx ensurepath
+  350  sudo apt-get install -f
+  351  sudo apt-get install libpython3.12-stdlib=3.12.3-1ubuntu0.3 libpython3.12t64=3.12.3-1ubuntu0.3 python3.12=3.12.3-1ubuntu0.3
+  352  sudo apt-get install --reinstall homebridge
+  353  sudo apt install pipx
+  354  pipx ensurepath
+  355  pipx install poetry
+  356  pipx remove poetry
+  357  pipx uninstall poetry
+  358  pipx install poetry
+  359  ll /home/avi/.local/bin/
+  360  rm /home/avi/.local/bin/poetry 
+  361  pipx uninstall poetry
+  362  pipx install poetry
+  363  ll /home/avi/.local/share/
+  364  ll /home/avi/.local/
+  365  rm -rf /home/avi/.local/share/
+  366  pipx ensurepath
+  367  pipx ensurepath --force
+  368  pipx completions
+  369  eval "$(register-python-argcomplete pipx)"
+  370  pipx install poetry
+  371  pipx upgrade poetry
+  372  poetry --version
+  373  python3.10 --version
+  374  ll
+  375  nvm
+  376  ll
+  377  code projects/ml
+  378  cd projects/
+  379  mv ml story_ml
+  380  code story_ml/
+  381  sudo apt install python3.11
+  382  poetry add tensorflow-cpu>=2.12 tensorflow-directml-plugin
+  383  poetry add tensorflow-cpu>=2.10 tensorflow-directml-plugin
+  384  poetry add tensorflow-cpu^=2.10 tensorflow-directml-plugin
+  385  poetry add tensorflow-cpu=2.10 tensorflow-directml-plugin
+  386  poetry install
+  387  poetry add tensorflow-cpu=2.10 tensorflow-directml-plugin env use python3.10
+  388  poetry add tensorflow-cpu=2.10 tensorflow-directml-plugin env use 3.10
+  389  poetry  env use 3.10
+  390  poetry add tensorflow-cpu=2.10 tensorflow-directml-plugin
+  391  poetry  env use 3.11
+  392  poetry install
+  393  poetry lock [--no-update
+  394  poetry lock
+  395  poetry install
+  396  poetry  env use 3.10
+  397  poetry install
+  398  . /home/avi/projects/story_ml/.venv/bin/activate
+  399  python -m pip install onnxruntime-directml
+  400  poetry  env use 3.10
+  401  python -m pip install onnxruntime-directml
+  402  poetry shell
+  403  exit
+  404  . /home/avi/projects/story_ml/.venv/bin/activate
+  405  python -m pip install onnxruntime-directml
+  406  exit
+  407  . /home/avi/projects/story_ml/.venv/bin/activate
+  408  python -m pip install onnxruntime-directml
+  409  python -m pip install onnxruntime
+  410  exit
+  411  update-locale LANG=en_US.UTF-8
+  412  locale-gen en_US.UTF-8
+  413  sudo locale-gen en_US.UTF-8
+  414  sudo update-locale LANG=en_US.UTF-8
+  415  clear
+  416  poetry install
+  417  poetry add onnxruntime-directml
+  418  poetry run python --version
+  419  poetry  env use 3.11
+  420  poetry add onnxruntime-directml
+  421  poetry  env use 3.10
+  422  poetry add onnxruntime-directml
+  423  poetry  env use 3.9
+  424  sudo apt install python3.9
+  425  poetry add onnxruntime-directml
+  426  poetry  env use 3.9
+  427  poetry add onnxruntime-directml
+  428  poetry shell
+  429  poetry  env use 3.11
+  430  poetry shell
+  431  poetry add onnxruntime onnxruntime-directml
+  432  code ~/.config/pypoetry/auth.toml
+  433  code ~/.config/pypoetry/config.toml 
+  434  pip install onnxruntime-directml
+  435  poetry add onnxruntime onnxruntime-directml==1.20.1
+  436  poetry add onnxruntime onnxruntime-directml==v1.20.1
+  437  poetry add onnxruntime onnxruntime-directml==v1.20.0
+  438  poetry add onnxruntime onnxruntime-directml==v1.19
+  439  sudo apt install libdirectml.so
+  440  poetry add onnxruntime
+  441  poetry install
+  442  rm -rf /home/avi/projects/tryml
+  443  exit
+  444  lsb_release 
+  445  lsb_release --version
+  446  lsb_release -a
+  447  ll
+  448  cd projects/
+  449  ll
+  450  ll story_ml/
+  451  mkdir story_3d
+  452  cat story_ml/pyproject.toml 
+  453  rm -rf story_ml
+  454  cd projects/
+  455  cd story_3d/
+  456  npm create vite@latest cushion-duty --template react-ts
+  457  ll cushion-duty/
+  458  npm -v
+  459  nvm list
+  460  cd ..
+  461  npm create vite@latest cushion-duty --template react-ts
+  462  cd cushion-duty
+  463  npm install
+  464  ll
+  465  cat package-lock.json 
+  466  rm package-lock.json 
+  467  nvm list available
+  468  nvm ls-remote
+  469  nvm list
+  470  nvm instal lts/jod
+  471  nvm install lts/jod
+  472  nvm list
+  473  nvm
+  474  nvm list
+  475  nvm uninstall unstable
+  476  nvm unalias unstable
+  477  nvm uninstall iojs
+  478  nvm list
+  479  nvm alias default 22
+  480  nvm list
+  481  npm
+  482  npm -v
+  483  node -v
+  484  ll
+  485  nvm list
+  486  nvm use 22
+  487  cd story_3d/
+  488  ll
+  489  rm -rf cushion-duty/
+  490  npm create
+  491  npm help create
+  492  node -v
+  493  npm i
+  494  npm install
+  495  cd projects/
+  496  cd story_3d/
+  497  npm create vite@latest cushion-duty --template react-ts .
+  498  rm -rf cushion-duty
+  499  npm create vite@latest cushion-duty --template react-ts -w .
+  500  cd ..
+  501  npm create vite@latest cushion-duty --template react-ts
+  502  ll
+  503  rm -rf story_3d
+  504  node -v
+  505  code cushion-duty/
+  506  cd cushion-duty/
+  507  ll
+  508  node -v
+  509  npm i
+  510  rm -rf node_modules
+  511  npm i
+  512  ll
+  513  cd ll
+  514  cd ..
+  515  rm -rf cushion-duty
+  516  mkdir cushion-duty
+  517  code cushion-duty/
+  518  cd cushion-duty/
+  519  npm i
+  520  cd ..
+  521  node -v
+  522  npm create vite@latest cushion-duty --template react-ts
+  523  cd cushion-duty
+  524  npm install
+  525  npm install three
+  526  npm install vite-plugin-pwa --save-dev
+  527  npm i --save-dev @types/three
+  528  npm run build
+  529  npm install -g serve
+  530  serve -s dist
+  531  npm run dev
+  532  npm install -D tailwindcss postcss autoprefixer
+  533  npx tailwindcss init -p
+  534  npm run dev
+  535  npm install react-router-dom
+  536  npm audit fix
+  537  npm run dev
+  538  npm audit fix
+  539  npm run dev
+  540  npm run build
+  541  npm run preview
+  542  npm run dev
+  543  pnpm i
+  544  npm run postinstall
+  545  npm run dev
+  546  npm install sql.js
+  547  npm i --save-dev @types/sql.js
+  548  npm install sql.js
+  549  npm install typeorm reflect-metadata sql.js
+  550  npm run dev
+  551  npm install @vitejs/plugin-react-swc @swc/core @swc/helpers
+  552  npm run dev
+  553  cd ..
+  554  rm -rf cushion-duty
+  555  ll
+  556  rm c
+  557  rm cush 
+  558  ll
+  559  # npm 7+, extra double-dash is needed:
+  560  npm create vite@latest cushion-duty -- --template react-swc-ts
+  561  npm install tailwindcss @tailwindcss/vite
+  562  npm i
+  563  npm run dev
+  564  npx vite --port=4000
+  565  npx vite --port=4001
+  566  npx vite --port=4000
+  567  npm install express sqlite3
+  568  npm run dev
+  569  cd ..
+  570  rm -rf cushion-duty
+  571  npm create @vite-pwa/pwa@latest cushion-duty -- --template react-ts
+  572  cd cushion-duty
+  573  npm run dev
+  574  npm install tailwindcss @tailwindcss/vite
+  575  npm run dev
+  576  cd
+  577  cd projects/
+  578  npm create vite@latest cushion-duty -- --template react-swc-ts
+  579  cd
+  580  cd projects/
+  581  mkdir t
+  582  cd t1/
+  583  npx create-vite-express
+  584  ll
+  585  npx create-vite-express@latest
+  586  cd cushion-duty/
+  587  npm i
+  588  code .
+  589  cd ..
+  590  rm -rf cushion-duty
+  591  npx create-vite-express@latest
+  592  code cushion-duty/
+  593  npm install tailwindcss @tailwindcss/vite
+  594  npm install -D vite-plugin-pwa
+  595  npm install --save-dev @types/service-worker
+  596  npm install -D @types/service-worker
+  597  npm i
+  598  npm run dev
+  599  npm run build
+  600  npm run dev
+  601  npm run build
+  602  npm run preview
+  603  npm run start
+  604  npm run build
+  605  npm run start
+  606  git init
+  607  git config --global init.defaultBranch main
+  608  git branch -m  main
+  609  npm i react-router
+  610  npm run dev
+  611  git remote add origin git@github.com:avinlg/cushion-duty.git
+  612  git branch -M main
+  613  git push -u origin main
+  614  node -v
+  615  nvm list
+  616  git fetch origin 
+  617  npm i express vite-express
+  618  npm i
+  619  npm i express vite-express
+  620  npm i --save-dev @types/express
+  621  tsx server
+  622  tsc server
+  623  npx tsc server
+  624  poetry install
+  625  git pull
+  626  sudo apt install python3-dev     python3.12-dev     default-libmysqlclient-dev     libmysqlclient-dev     build-essential     pkg-config
+  627  cd
+  628  cd olesolutions/
+  629  cd von/
+  630  ll
+  631  cd dfeed/
+  632  git pull
+  633  cd ..
+  634  mv dfeed dfeedold
+  635  git clone git@github.com:ole-vondiamonds/erp.git
+  636  git clone git@github.com:ole-vondiamonds/dfeed.git
+  637  code dfeed
+  638  lsb_release -a
+  639  php -v
+  640  cd
+  641  ll
+  642  cd projects/
+  643  ll
+  644  composer create-project --prefer-dist laravel/laravel kanban-cc-2025 "^12.0"
+  645  sudo apt install php8.3-xml
+  646  composer create-project --prefer-dist laravel/laravel kanban-cc-2025 "^12.0"
+  647  rm -rf kanban-cc-2025
+  648  composer create-project --prefer-dist laravel/laravel kanban-cc-2025 "^12.0"
+  649  rm -rf kanban-cc-2025/
+  650  sudo apt install php8.3-sqlite3
+  651  composer create-project --prefer-dist laravel/laravel kanban-cc-2025 "^12.0"
+  652  cd kanban-cc-2025
+  653  history > history.txt
+  654  code .
+  655  rm -rf kanban-cc-2025/
+  656  cd ..
+  657  ll
+  658  rm -rf kanban-cc-2025
+  659  ll
+  660  composer global require laravel/installer
+  661  laravel new kanban-cc-2025
+  662  sudo apt-get install -y php8.3-{cli,sqlite3,common,fpm,zip,gd,mbstring,curl,xml,bcmath,mcrypt}
+  663  node -v
+  664  cd projects/
+  665  laravel new kanban-cc-2025
+  666  sudo apt install php8.3-mbstring
+  667  laravel new kanban-cc-2025
+  668  cd kanban-cc-2025/
+  669  npm i
+  670  cd ..
+  671  rm -rf kanban-cc-2025
+  672  laravel new kanban-cc-2025
+  673  cd kanban-cc-2025/
+  674  composer run dev
+  675  code .
+  676  npm use 20
+  677  nvm use 20
+  678  npm i
+  679  code .
+  680  nvm alias default 20
+  681  cd
+  682  cd projects/
+  683  laravel new kanban-cc-2025
+  684  composer global require laravel/installer
+  685  composer config --list --global
+  686  ll
+  687  composer -n config --global home
+  688  ll /home/avi/.config/composer
+  689  ll /home/avi/.config/composer/vendor/
+  690  ll /home/avi/.config/composer/vendor/bin/
+  691  cd
+  692  vi .bashrc 
+  693  code .bashrc 
+  694  bash
+  695  cd
+  696  cd projects/
+  697  ll
+  698  rm -rf kanban-cc-2025
+  699  node -
+  700  laravel new kanban-cc-2025
+  701  code kanban-cc-2025
+  702  rm -rf kanban-cc-2025
+  703  ll
+  704  laravel new kanban-cc-2025
+  705  history > kanban-cc-2025/history.txt
