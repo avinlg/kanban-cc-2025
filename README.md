@@ -11,8 +11,30 @@ Kanban CC 2025 (Coding Challenge 2025) is a modern Kanban board application.
 - **TypeScript**: Superset of JavaScript for type-safe and maintainable code.
 - **Tailwind CSS**: Utility-first CSS framework for rapid UI development.
 
-## Getting Started
+## Prerequisites for dev
 
+Before setting up the project, ensure you have the following installed:
+
+- **PHP 8.3**
+- **PHP 8.3 Extensions**:
+    - `cli`
+    - `sqlite3`
+    - `common`
+    - `fpm`
+    - `zip`
+    - `gd`
+    - `mbstring`
+    - `curl`
+    - `xml`
+    - `bcmath`
+    - `mcrypt`
+- **Composer** (latest version)
+- **Node.js 20** (strictly version 20, as higher versions may cause installation errors)
+- **npm** (comes with Node.js)
+- **Git** for version control
+
+
+## Getting Started
 1. Clone the repository:
    ```bash
    git clone git@github.com:avinlg/kanban-cc-2025.git
